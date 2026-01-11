@@ -2,7 +2,7 @@
 import { GoogleGenAI } from "@google/genai";
 import { FUUAST_KNOWLEDGE } from "../data/knowledgeBase";
 
-const apiKey = process.env.API_KEY || "";
+const apiKey = import.meta.env.VITE_GEMINI_API_KEY;
 const ai = new GoogleGenAI({ apiKey });
 
 export const getGeminiResponse = async (userQuery: string) => {

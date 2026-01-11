@@ -1,0 +1,8 @@
+
+{
+  "name": "FUUAST Gulshan Campus AI Chatbot",
+  "description": "A document-grounded AI assistant for students and visitors of FUUAST Gulshan Campus, providing information on admissions, fees, and programs with citations.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
